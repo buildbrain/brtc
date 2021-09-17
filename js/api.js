@@ -75,16 +75,16 @@ function mostrar_casas(casas) {
     ul.classList = "property-specs-wrap mb-3 mb-lg-0"
 
     var li = document.createElement('li');
-    li.innerHTML = `<span class="property-specs">Dormitorio</span> <span class="property-specs-number">2 <sup>+</sup></span>`;
+    li.innerHTML = `<span class="property-specs">Dormitorio</span> <span class="property-specs-number">${element.bedroom} <sup>+</sup></span>`;
 
     var li2 = document.createElement('li');
     li2.innerHTML = ` <span class="property-specs">Baños</span>
-<span class="property-specs-number">2</span>
+<span class="property-specs-number">${element.bathroom}</span>
 `;
 
     var li3 = document.createElement('li');
     li3.innerHTML = ` <span class="property-specs">Garaje</span>
-<span class="property-specs-number">0</span>
+<span class="property-specs-number">${element.garaje}</span>
 
 
 `;
