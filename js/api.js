@@ -2,6 +2,8 @@
 
 var url = 'https://tucasahn.herokuapp.com'
 
+
+// /products?category.name=${Alquiler}
 fetch(url + '/products')
   .then(response => response.json())
   .then(data => mostrar_casas(data))
@@ -27,7 +29,7 @@ function mostrar_casas(casas) {
     one_offer.classList = "offer-type-wrap"
 
     var span = document.createElement("SPAN");
-    span.classList = "offer-type bg-success"
+    span.classList = "offer-type bg-primary "
     var tspana = document.createTextNode(element.category.name); // Create a text element 
     span.appendChild(tspana);
 
