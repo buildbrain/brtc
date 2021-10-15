@@ -454,7 +454,7 @@
 
     const valores = window.location.search;
 
-    fetch(`http://159.65.165.90:4000/products/${valores}`)
+    fetch(`https://tucasahn.herokuapp.com/products/${valores}`)
       .then(response => response.json())
       .then(data => detallesCasas(data))
 

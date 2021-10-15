@@ -1,6 +1,6 @@
 
 
-var url = 'http://159.65.165.90:4000'
+var url = 'https://tucasahn.herokuapp.com'
 
 
 // /products?category.name=${Alquiler}
